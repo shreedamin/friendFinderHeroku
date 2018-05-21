@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Survey</h1>
+        <hr>
+
+        <h3><strong>About You</strong></h3>
+        <h4>Name (required)</h4>
+        <input type="text" name="" id="name" class="form-control" required>
+        <h4>Link your Profile Photo (required)</h4>
+        <input type"text" name="" id="photo" class="form-control" required>
+
+        <hr>
+        <h3><strong>Question 1: </strong></h3>
+        <h4>You find it difficult to introduce yourself to other people.
+        </h4>
+        <select data-placeholder="" class="default" id="question1">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 2: </strong></h3>
+        <h4>You often get so lost in thoughts that you ignore or forget your surroundings.
+        </h4>
+        <select data-placeholder="" class="default" id="question2">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 3: </strong></h3>
+        <h4>You try to respond to your e-mails as soon as possible and cannot stand a messy inbox.
+        </h4>
+        <select data-placeholder="" class="default" id="question3">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 4: </strong></h3>
+        <h4>You find it easy to stay relaxed even when there is some pressure.
+        </h4>
+        <select data-placeholder="" class="default" id="question4">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 5: </strong></h3>
+        <h4>You do not usually initiate conversations.
+        </h4>
+        <select data-placeholder="" class="default" id="question5">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 6: </strong></h3>
+        <h4>You rarely do something just out of sheer curiosity.
+        </h4>
+        <select data-placeholder="" class="default" id="question6">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 7: </strong></h3>
+        <h4>You are usually highly motivated and energetic.
+        </h4>
+        <select data-placeholder="" class="default" id="question7">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 8: </strong></h3>
+        <h4>Winning a debate matters less to you than making sure no one gets upset.
+        </h4>
+        <select data-placeholder="" class="default" id="question8">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 9: </strong></h3>
+        <h4>You often feel as if you have to justify yourself to other people.
+        </h4>
+        <select data-placeholder="" class="default" id="question9">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <h3><strong>Question 10: </strong></h3>
+        <h4>Your home and work environments are quite tidy.
+        </h4>
+        <select data-placeholder="" class="default" id="question10">
+            <option value="">Choose an option</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <hr>
+        <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+    </div>
+
+<!--Modal-->
+
+<div class="modal fade" id="friend-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Strong Match</h4>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchImg" src="" alt="Image" width=400px>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$("#submit").on("click", function (event){
+    event.preventDefault();
+    var userInput ={
+        name: $("#name").val(),
+        image: $("#photo").val(),
+        scores: [
+            $("#question1").val(),
+            $("#question2").val(),
+            $("#question3").val(),
+            $("#question4").val(),
+            $("#question5").val(),
+            $("#question6").val(),
+            $("#question7").val(),
+            $("#question8").val(),
+            $("#question9").val(),
+            $("#question10").val(),
+        ]
+    }
+
+    $.post("/api/friends", userInput).then(function (data){
+        console.log("survey.html", data);
+        $('#matchName').text(data.name);
+        $('#matchImg').attr('src', data.photo);
+        $('#friend-modal').modal('show');
+    })
+});
+</script>
+
+</body>
+</html>
