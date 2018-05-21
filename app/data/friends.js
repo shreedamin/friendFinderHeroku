@@ -35,16 +35,16 @@ var friends = [
         "name": "Selena",
         "photo": "https://s9.favim.com/orig/130820/selena-gomez-Favim.com-863751.jpg",
         "scores": [
-            "4",
-            "5",
-            "2",
-            "1",
-            "4",
-            "5",
-            "2",
-            "3",
-            "5",
-            "5"
+            4,
+            5,
+            2,
+            1,
+            4,
+            5,
+            2,
+            3,
+            5,
+            5
         ]
     },
     {
